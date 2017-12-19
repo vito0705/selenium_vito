@@ -29,14 +29,14 @@ $hide_ads_num = 0
 #web_num = web_num
 #--------------------------------------------------------
 def search_ads (driver, web_url_para, sheet)
-
+	web_url = web_url_para
 	#--------------------------------------------------------
 	#web_url_domain:the domian of the web page
 	#--------------------------------------------------------
 	web_url_domain_raw = web_url.match(/https?\:\/\/(.*?)\/.*?/)
 	web_url_domain = web_url_domain_raw[1]
 
-	web_url = web_url_para
+	
 	driver.get web_url
 	sleep 3
 
