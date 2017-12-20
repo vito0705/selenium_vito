@@ -2,7 +2,6 @@
 基于ruby+selenium的第三方广告检测
 
 # 环境配置
-------
 Linux和windows下均可以使用这个脚本，但对于环境配置略有不同。
 ## Linux下环境配置
 
@@ -65,7 +64,6 @@ Windows下需要在系统变量的path变量中添加exe文件的位置，配置
 同样，这四步也是Windows下必备的环境配置。但在自己的测试过程中，由于一些安全问题，Windows下的chrome始终没有调通，但Firefox是可以使用的。
 
 # 脚本使用
-------
 已经完成的脚本文件在环境配置成功后，可以直接使用，整个工程中共有三个文件：
 - detection_ad.rb：
   可执行文件，在终端terminal中（windows下为cmd）执行命令：
@@ -84,5 +82,4 @@ Windows下需要在系统变量的path变量中添加exe文件的位置，配置
   ```ruby
   excel_fil.write "ad_file.xls"
   ```
-  
 对于脚本代码的详细说明，请阅读：[基于ruby+selenium的第三方广告检测](http://www.jianshu.com/p/9540e7566192)
