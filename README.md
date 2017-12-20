@@ -82,4 +82,5 @@ Windows下需要在系统变量的path变量中添加exe文件的位置，配置
   ```ruby
   excel_fil.write "ad_file.xls"
   ```
+
 对于脚本代码的详细说明，请阅读：[基于ruby+selenium的第三方广告检测](http://www.jianshu.com/p/9540e7566192)
