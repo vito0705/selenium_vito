@@ -81,6 +81,5 @@ Windows下需要在系统变量的path变量中添加exe文件的位置，配置
   这个文件用于保存数据，脚本运行后处理得到的所有数据会全部写入这个文件中。如果需要将最终数据写入到其他名称的`xls`文件中，只需要修改`detection_ad.rb`文件中相关代码，将`ad_file.xls`改为自己需要的名称：
   ```ruby
   excel_fil.write "ad_file.xls"
-  ```
-
+  ``` 
 对于脚本代码的详细说明，请阅读：[基于ruby+selenium的第三方广告检测](http://www.jianshu.com/p/9540e7566192)
